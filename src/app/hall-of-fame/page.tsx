@@ -12,7 +12,7 @@ import { GaicoConfetti } from "~/components/Confetti";
 import { env } from "~/env";
 
 export const metadata: Metadata = {
-  title: "GenAI Collective Demo Night Hall of Fame 🏆",
+  title: "Ditch-The-Deck Demo Night Hall of Fame 🏆",
 };
 
 export default async function HallOfFamePage() {
@@ -63,7 +63,7 @@ function NoEventsPage() {
         height={160}
       />
       <h1 className="pt-4 text-center text-2xl font-semibold">
-        GenAI Collective Demo Night!
+        Ditch-The-Deck Demo Night!
       </h1>
       <LinkButton href={env.NEXT_PUBLIC_BASE_URL}>Learn more</LinkButton>
       <div className="z-3 pointer-events-none fixed inset-0">
