@@ -26,7 +26,7 @@ export default function HofHeader() {
               Demo Night Hall of Fame 🏆
             </h1>
             <h2 className="-mt-1 line-clamp-1 text-ellipsis px-1 font-kallisto text-sm font-bold tracking-tight">
-              The GenAI Collective
+              Ditch-The-Deck
             </h2>
           </div>
           <div className="flex aspect-square w-9 items-center justify-center" />
