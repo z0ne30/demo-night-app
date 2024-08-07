@@ -120,7 +120,7 @@ export function UpdateAttendeeForm({
         <span className="text-lg font-semibold">Email</span>
         <input
           type="email"
-          placeholder="hello@gditchthedeck.com"
+          placeholder="hello@ditchthedeck.com"
           {...register("email")}
           className="z-10 rounded-xl border-2 border-gray-200 bg-white/60 p-2 text-lg backdrop-blur"
         />
