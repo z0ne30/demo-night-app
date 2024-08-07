@@ -103,7 +103,7 @@ export function SubmitDemoForm({ event }: { event: CompleteEvent }) {
           <span className="text-lg font-semibold">Startup Name</span>
           <input
             type="text"
-            placeholder="GenAI Collective"
+            placeholder="Ditch-The-Deck"
             {...register("name", { required: "Startup name is required" })}
             className={cn(
               "z-10 rounded-xl border-2 bg-white/60 p-2 text-lg backdrop-blur",
@@ -118,7 +118,7 @@ export function SubmitDemoForm({ event }: { event: CompleteEvent }) {
           <span className="text-lg font-semibold">Startup Website</span>
           <input
             type="url"
-            placeholder="https://genaicollective.ai"
+            placeholder="https://ditchthedeck.com"
             {...register("url", { required: "Startup website is required" })}
             className={cn(
               "z-10 rounded-xl border-2 bg-white/60 p-2 text-lg backdrop-blur",
@@ -135,7 +135,7 @@ export function SubmitDemoForm({ event }: { event: CompleteEvent }) {
           <span className="text-lg font-semibold">PoC Name</span>
           <input
             type="text"
-            placeholder="Ada Lovelace"
+            placeholder="Enyu Rao"
             {...register("pocName", { required: "PoC Name is required" })}
             className={`z-10 rounded-xl border-2 p-2 text-lg backdrop-blur ${errors.pocName ? "border-red-500" : "border-gray-200 bg-white/60"}`}
           />
@@ -147,7 +147,7 @@ export function SubmitDemoForm({ event }: { event: CompleteEvent }) {
           <span className="text-lg font-semibold">PoC Email</span>
           <input
             type="email"
-            placeholder="ada@genaicollective.ai"
+            placeholder="hello@ditchthedeck.com"
             {...register("email", { required: "PoC Email is required" })}
             className={cn(
               "z-10 rounded-xl border-2 bg-white/60 p-2 text-lg backdrop-blur",
